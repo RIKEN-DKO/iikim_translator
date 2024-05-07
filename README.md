@@ -34,5 +34,6 @@ Advancing NMT for Indigenous Languages: This project focuses on a case study inv
 ```
 
 ## HF Models
-[M2M100] (https://huggingface.co/jcrangel/iikim_translator_m2m)
-[t5-base-spanish](https://huggingface.co/jcrangel/iikim_translator_t5)
+Visit the following Hugging Face model repositories to access the pre-trained models:
+- [M2M100](https://huggingface.co/jcrangel/iikim_translator_m2m)
+- [T5-base-spanish](https://huggingface.co/jcrangel/iikim_translator_t5)
