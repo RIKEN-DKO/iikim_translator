@@ -1,0 +1,11 @@
+model_name: 't5-base'
+base_dir: '/home/julio/repos/queTrans/data/indi_langs_clean'
+train_direction: 'both'
+learning_rate: 2e-5
+per_device_train_batch_size: 100
+per_device_eval_batch_size: 100
+num_train_epochs: 500
+eval_steps: 100
+output_dir: './assets/t5-m2m'
+early_stopping: False
+early_stopping_patience: 2

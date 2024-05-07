@@ -1,0 +1,13 @@
+model_name: 'facebook/m2m100_418M'
+target_langs: null
+base_dir: '/home/julio/repos/queTrans/data/mayan'
+# base_dir: '/home/julio/repos/queTrans/data/otomay_small'
+train_direction: 'spanish2langs'
+learning_rate: 2e-5
+per_device_train_batch_size: 32
+per_device_eval_batch_size: 32
+num_train_epochs: 200
+eval_steps: 100
+output_dir: './facebook/m2m100_418M/zero_shot'
+early_stopping: True
+early_stopping_patience: 2

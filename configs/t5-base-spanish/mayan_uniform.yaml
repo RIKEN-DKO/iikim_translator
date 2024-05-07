@@ -1,0 +1,13 @@
+model_name: 'vgaraujov/t5-base-spanish'
+target_langs: null
+base_dir: '/home/julio/repos/queTrans/data/mayan'
+train_direction: 'spanish2langs'
+learning_rate: 2e-5
+per_device_train_batch_size: 32
+per_device_eval_batch_size: 32
+num_train_epochs: 200
+eval_steps: 100
+output_dir: './assets/t5-base-spanish/mayan'
+early_stopping: True
+early_stopping_patience: 2
+uniform_sample: True
